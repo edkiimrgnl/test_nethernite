@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.overlay {
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup {
+  z-index: 999;
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+// footer
+.footer {
+  padding: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
